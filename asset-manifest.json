@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.0a0d71f8.css",
+    "main.js": "/website/static/js/main.dba8982f.js",
+    "static/js/453.253ccfac.chunk.js": "/website/static/js/453.253ccfac.chunk.js",
+    "static/media/CRT_monitor.png": "/website/static/media/CRT_monitor.106321b2cefe2de029e6.png",
+    "static/media/Web437_IBM_DOS_ISO8.woff": "/website/static/media/Web437_IBM_DOS_ISO8.e46de1456cb86d5c910a.woff",
+    "static/media/Web437_IBM_CGAthin.woff": "/website/static/media/Web437_IBM_CGAthin.8a257d2bfaa59c7bab10.woff",
+    "index.html": "/website/index.html",
+    "main.0a0d71f8.css.map": "/website/static/css/main.0a0d71f8.css.map",
+    "main.dba8982f.js.map": "/website/static/js/main.dba8982f.js.map",
+    "453.253ccfac.chunk.js.map": "/website/static/js/453.253ccfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a0d71f8.css",
+    "static/js/main.dba8982f.js"
+  ]
+}
