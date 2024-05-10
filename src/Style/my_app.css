@@ -1,0 +1,34 @@
+body {
+    background-color: #222222;
+    color: #ffffff; /* Set text color to white for good contrast */
+    font-family: 'Courier New', Courier, monospace; /* Choose a monospace font for terminal-like appearance */
+    padding: 20px;
+    background-image: url("../../public/CRT_monitor.png");
+    background-size: cover;
+}
+.terminal-text {
+    color: #00ff00; /* Green color for the text */
+    font-size: 18px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold for emphasis */
+    margin: 0; /* Remove default margin */
+    font-family: 'IBMfont';
+}
+.crt-monitor{
+    background-color: transparent;
+    position: fixed;
+    top: 49%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    width: 38vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 54vh;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overscroll-behavior-y: contain;
+    scroll-snap-type: y proximity;
+}
+.crt-monitor::-webkit-scrollbar {
+    background: transparent; /* Chrome/Safari/Webkit */
+    width: 0px;
+  }

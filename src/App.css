@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: 'IBMfont';
+  src: local('IBMfont'), url(./Fonts/Web437_IBM_DOS_ISO8.woff) format('woff');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: 'CopamFont';
+  src: local('CopamFont'), url(./Fonts/Web437_IBM_CGAthin.woff) format('woff');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}

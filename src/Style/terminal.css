@@ -1,0 +1,12 @@
+.input_line {
+    background-color: transparent; /* Set the background color to transparent */
+    border: none; /* Remove the border */
+    width: 37vw; /* Set the width */
+    outline: none;
+    color: #00ff00;
+    
+}
+.old_message{
+    color: #00ff00;
+    
+}
