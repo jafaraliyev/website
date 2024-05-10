@@ -1,6 +1,7 @@
 {
   "name": "personal_website",
   "version": "0.1.0",
+  "homepage": "https://jafaraliyev.github.io/website",
   "private": true,
   "dependencies": {
     "@testing-library/react": "^13.4.0",
