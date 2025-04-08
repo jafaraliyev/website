@@ -2,7 +2,7 @@
 
 Welcome to the source code of my **interactive personal portfolio**, built using **React**, **TypeScript**, and a terminal-style UI. This project showcases my skills, experiences, and projects in a fun, developer-friendly way — all through a custom-built command-line interface on the web.
 
-> 🖥️ **Live Preview**: [jafaraliyev.github.io](https://jafaraliyev.github.io)
+> 🖥️ **Live Preview**: [jafaraliyev.github.io](https://jafaraliyev.github.io/website/)
 
 ---
 
