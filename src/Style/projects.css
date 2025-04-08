@@ -1,13 +1,12 @@
-.main-window{
+.main-window {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
     background-color: transparent;
-    position: fixed;
-    top: 49%;
-    left: 52%;
-    transform: translate(-50%, -50%);
-    width: 38vw;
     overflow-y: auto;
     overflow-x: hidden;
-    height: 54vh;
     scrollbar-width: none;
     -ms-overflow-style: none;
     overscroll-behavior-y: contain;

@@ -88,7 +88,7 @@ function Terminal() {
     scrollToBottom()
   }, [messages]);
   return (
-    <div ref={scrollRef}>
+    <div className="terminal-container" ref={scrollRef}>
       {old_messages.map(m=><div className='old_message'> {m} </div>)}
       <Message messages={messages} rerender={rerender}/>
       <input type="text" className="input_line" value={command} onChange={(event) => handleChange(event)} onKeyDown={(e) => onKeyDown(e) }/>

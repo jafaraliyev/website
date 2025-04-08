@@ -1,35 +1,43 @@
 body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
     background-color: #222222;
-    color: #ffffff; /* Set text color to white for good contrast */
-    font-family: 'Courier New', Courier, monospace; /* Choose a monospace font for terminal-like appearance */
-    padding: 20px;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
     background-image: url("../../public/CRT_monitor.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
+
 .terminal-text {
-    color: #00ff00; /* Green color for the text */
-    font-size: 18px; /* Adjust the font size as needed */
-    font-weight: bold; /* Make the text bold for emphasis */
-    margin: 0; /* Remove default margin */
+    color: #00ff00;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
     font-family: 'IBMfont';
 }
-.crt-monitor{
+
+.crt-monitor {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 15vh; /* 10% of viewport height */
+    padding-left: 33vw; /* 5% of viewport width */
+    padding-bottom: 17vw;
+    box-sizing: border-box;
     background-color: transparent;
-    position: fixed;
-    top: 49%;
-    left: 52%;
-    transform: translate(-50%, -50%);
-    width: 38vw;
     overflow-y: auto;
     overflow-x: hidden;
-    height: 54vh;
     scrollbar-width: none;
     -ms-overflow-style: none;
     overscroll-behavior-y: contain;
     scroll-snap-type: y proximity;
 }
+
 .crt-monitor::-webkit-scrollbar {
-    background: transparent; /* Chrome/Safari/Webkit */
+    background: transparent;
     width: 0px;
-  }
+}
