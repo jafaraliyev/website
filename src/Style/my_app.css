@@ -5,6 +5,7 @@ body {
     padding: 20px;
     background-image: url("../../public/CRT_monitor.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .terminal-text {
     color: #00ff00; /* Green color for the text */
